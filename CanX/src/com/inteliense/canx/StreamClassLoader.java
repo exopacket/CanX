@@ -11,10 +11,6 @@ import java.util.jar.JarEntry;
 
 //you can open a jar... but you need a can opener to open a can lmfao
 
-//yes, it works. I just messed it up..... so others could understand it better.
-
-//they're never getting it.. ;)
-
 public class StreamClassLoader extends ClassLoader {
 
     private final Map<String, byte[]> classData;
