@@ -8,20 +8,6 @@ import java.nio.charset.StandardCharsets;
 
 public class Main {
 
-    //CanX Daemon C Program and C CLI
-
-    //OVERALL TODO
-    //CanMake java jar that encrypts jars with the available options & support for encrypted java daemons.
-    //CanX ## java jar that is executed by java replacement c exec;
-    //              recognizes encrypted jar (java -jar [filename]) -> loads classes and invokes entrypoint
-    //              !encrypted -> prints java command and returns expected exit code -> c exec ends fork;
-    //                      --> starts new fork with correct java location and command
-    //Keys Exec ## c executable that returns key with [successful verification ?]
-    //Java Replacement /usr/bin/java w/ c executable that forks CanX with .jar file (auto recognized in CanX)
-    //installer
-
-    //TODO ecb key storing & caching w/[?] c executable & KleverKeys lib
-
     public static void main(String[] args) throws Exception {
 
         System.out.println(encryptJar("/Users/int/Desktop/", "/Users/int/Desktop/", "test", "MyPass", 0, "Main"));
