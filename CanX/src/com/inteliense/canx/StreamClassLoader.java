@@ -9,8 +9,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.jar.JarEntry;
 
-//you can open a jar... but you need a can opener to open a can lmfao
-
 public class StreamClassLoader extends ClassLoader {
 
     private final Map<String, byte[]> classData;
